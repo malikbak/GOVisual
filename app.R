@@ -14,7 +14,7 @@ library(org.Hs.eg.db)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-    navbarPage("FunEnrichVisual by Abubakar", tabPanel("Kegg",
+    navbarPage("GOVisual", tabPanel("Kegg",
                                            titlePanel("Upload Entrezid File"),
                                            sidebarLayout(
                                                sidebarPanel(
